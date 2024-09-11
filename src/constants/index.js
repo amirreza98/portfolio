@@ -19,10 +19,11 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    realtor,
+    game,
     threejs,
+    twindigital,
+    openmemory,
   } from "../assets";
   
   export const navLinks = [
@@ -198,30 +199,30 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Real Estate",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A web-based platform that allows users to explore, search, and view real estate properties. This site provides a seamless and user-friendly experience for individuals looking to find their next home or investment property, offering detailed information and imagery to assist in making informed decisions.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "RapidAI",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: realtor,
+      source_code_link: "https://realtor-tan-beta.vercel.app/",
     },
     {
       name: "Job IT",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A dynamic web-based platform that showcases engaging and visually appealing 3D models and animations. This site offers an interactive and immersive experience for users, allowing them to explore and interact with 3D content in real-time, making it ideal for creative presentations, virtual showcases, and educational purposes.",
       tags: [
         {
           name: "react",
@@ -236,13 +237,34 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: twindigital,
+      source_code_link: "https://thriving-bubblegum-aee085.netlify.app/",
     },
     {
-      name: "Trip Guide",
+      name: "Open Memory",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Showcase your visual stories with OpenMemory. Effortlessly capture, share, and inspire with your stunning photos. Our sleek and intuitive platform makes organizing and presenting your cherished memories a breeze, perfect for anyone eager to connect through captivating images.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: openmemory,
+      source_code_link: "https://polite-mochi-42c933.netlify.app/",
+    },
+    {
+      name: "Memory Game",
+      description:
+        "A fun and interactive web-based memory game where users can challenge themselves to find matching pairs of items. The sleek design features vibrant graphics and an intuitive interface, making it both engaging and easy to play. Perfect for those who enjoy quick and entertaining puzzles to test their memory skills.",
       tags: [
         {
           name: "nextjs",
@@ -257,8 +279,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: game,
+      source_code_link: "https://fanciful-cascaron-80c237.netlify.app/",
     },
   ];
   

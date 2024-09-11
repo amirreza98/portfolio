@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import preview from "./preview.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -26,9 +27,10 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import realtor from "./realtor.png";
+import twindigital from "./twindigital.png";
+import game from "./game.png";
+import openmemory from "./openmemory.png";
 
 export {
   logo,
@@ -36,9 +38,9 @@ export {
   creator,
   mobile,
   web,
-  github,
   menu,
   close,
+  preview,
   css,
   docker,
   figma,
@@ -56,7 +58,8 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  realtor,
+  twindigital,
+  game,
+  openmemory,
 };
