@@ -220,7 +220,7 @@ import {
       source_code_link: "https://realtor-tan-beta.vercel.app/",
     },
     {
-      name: "Job IT",
+      name: "Tein Digital",
       description:
         "A dynamic web-based platform that showcases engaging and visually appealing 3D models and animations. This site offers an interactive and immersive experience for users, allowing them to explore and interact with 3D content in real-time, making it ideal for creative presentations, virtual showcases, and educational purposes.",
       tags: [
@@ -229,11 +229,11 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "threejs",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
       ],
