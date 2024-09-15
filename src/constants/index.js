@@ -199,6 +199,27 @@ import {
   
   const projects = [
     {
+      name: "Twin Digital",
+      description:
+        "A dynamic web-based platform that showcases engaging and visually appealing 3D models and animations. This site offers an interactive and immersive experience for users, allowing them to explore and interact with 3D content in real-time, making it ideal for creative presentations, virtual showcases, and educational purposes.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "threejs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: twindigital,
+      source_code_link: "https://thriving-bubblegum-aee085.netlify.app/",
+    },
+    {
       name: "Real Estate",
       description:
         "A web-based platform that allows users to explore, search, and view real estate properties. This site provides a seamless and user-friendly experience for individuals looking to find their next home or investment property, offering detailed information and imagery to assist in making informed decisions.",
@@ -218,27 +239,6 @@ import {
       ],
       image: realtor,
       source_code_link: "https://realtor-tan-beta.vercel.app/",
-    },
-    {
-      name: "Tein Digital",
-      description:
-        "A dynamic web-based platform that showcases engaging and visually appealing 3D models and animations. This site offers an interactive and immersive experience for users, allowing them to explore and interact with 3D content in real-time, making it ideal for creative presentations, virtual showcases, and educational purposes.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "threejs",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: twindigital,
-      source_code_link: "https://thriving-bubblegum-aee085.netlify.app/",
     },
     {
       name: "Open Memory",
