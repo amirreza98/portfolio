@@ -23,9 +23,9 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import FreshtePasargad from "./FreshtePasargad.png";
+import LizaSaze from "./LizaSaze.png";
+import Armeno from "./Armeno.png";
 
 import realtor from "./realtor.png";
 import twindigital from "./twindigital.png";
@@ -55,9 +55,9 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
-  starbucks,
-  tesla,
+  FreshtePasargad,
+  LizaSaze,
+  Armeno,
   realtor,
   twindigital,
   game,
