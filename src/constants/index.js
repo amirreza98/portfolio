@@ -133,7 +133,7 @@ import {
       title: "Digital Twin Engineer",
       company_name: "Armeno Co.",
       icon: Armeno,
-      iconBg: "RGB(255, 242, 0)",
+      iconBg: "RGB(254, 213, 1)",
       date: " July 2021 - January 2022",
       points: [
         "Co-designed project concepts, sketches, modeling, diagrams, quantity calculations and final working drawings for 3 projects.",
