@@ -13,13 +13,12 @@ const WaterText = () => {
         }, 400); // بعد از شوک، برمی‌گرده به حالت morph
       };
 
+
   return (
     
     <motion.div
     onClick={handleClick}
-    className={`absolute top-28 right-20 h-[500px] w-[500px] shadow-custom cursor-pointer
-        ${clicked ? 'animate-shock' : 'animate-morph hover:animate-morphFast transition-all duration-500'}
-      `}
+    className={`absolute bottom-8 right-8 shadow-custom cursor-pointer ${clicked ? 'animate-shock' : 'animate-morph hover:animate-morphFast transition-all duration-500 w-[400px] h-[400px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] '}`}
     animate={{ y: [0, -1, 0] }}
     transition={{ repeat: Infinity, duration: 2 }}
     style={{
@@ -40,7 +39,7 @@ const WaterText = () => {
         transition={{ repeat: Infinity, duration: 2 }}
     />
     <motion.div
-        className="relative left-8 top-96 h-20 w-20 animate-morph shadow-customTwo"
+        className="absolute top-3/4 h-20 w-20 animate-morph shadow-customTwo"
         animate={{ y: [0, -2, 0] }}
         transition={{ repeat: Infinity, duration: 2 }}
     />
