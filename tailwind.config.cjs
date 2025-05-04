@@ -45,7 +45,7 @@ module.exports = {
         },
         morphFast: {
           '0%': {
-            borderRadius: '67% 43% 50% 63% / 45% 52% 48% 55%',
+            borderRadius: '60% 43% 50% 63% / 45% 52% 48% 55%',
           },
           '33%': {
             borderRadius: '64% 36% 52% 50% / 42% 37% 63% 58%',
@@ -54,19 +54,19 @@ module.exports = {
             borderRadius: '49% 51% 52% 58% / 56% 47% 53% 44%',
           },
           '100%': {
-            borderRadius: '67% 43% 50% 63% / 45% 52% 48% 55%',
+            borderRadius: '60% 43% 50% 63% / 45% 52% 48% 55%',
           },
         },
         shock: {
-          '0%': { borderRadius: '67% 43% 50% 48% / 45% 52% 48% 55%', },
-          '50%': { borderRadius: '38% 65% 42% 60% / 42% 57% 63% 58%', },
-          '100%': { borderRadius: '67% 43% 50% 48% / 45% 52% 48% 55%', },
+          '0%': { borderRadius: '60% 43% 50% 48% / 45% 52% 48% 55%', },
+          '50%': { borderRadius: '38% 34% 58% 56% / 42% 57% 63% 58%', },
+          '100%': { borderRadius: '60% 43% 50% 48% / 45% 52% 48% 55%', },
         },
       },
       animation: {
         morph: 'morph 7s ease-in-out infinite',
         morphFast: 'morphFast 2.8s ease-in-out infinite',
-        shock: 'shock 1s',
+        shock: 'shock 2s',
       },
     },
   },
